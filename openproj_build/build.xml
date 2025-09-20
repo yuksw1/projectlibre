@@ -10,6 +10,9 @@
 			<!--include name="openproj-exchange.jar" /-->
 			<include name="openproj-reports.jar" />
 		</fileset>
+		<fileset dir="../openproj_contrib/lib">
+			<include name="**/*.jar" />
+		</fileset>
 	</path>
 	
 	<path id="compile-no_contrib_built.class.path">
