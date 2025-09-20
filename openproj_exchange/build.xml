@@ -49,6 +49,7 @@
 			classpathref="compile.class.path"
 			debug="off"
 			nowarn="on"
+			encoding="ISO-8859-1"
 			source="1.8"
 			target="1.8">
 				<src path="${src}" />

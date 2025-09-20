@@ -44,6 +44,7 @@
 					classpathref="compile.class.path"
 					debug="off"
 					nowarn="on"
+					encoding="ISO-8859-1"
 					source="1.8"
 					target="1.8">
 						<src path="${src_pl_core}" />
@@ -63,6 +64,7 @@
 					classpathref="compile-no_contrib_built.class.path"
 					debug="off"
 					nowarn="on"
+					encoding="ISO-8859-1"
 					source="1.8"
 					target="1.8">
 						<src path="${src_pl_core}" />
