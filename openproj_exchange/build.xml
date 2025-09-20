@@ -13,6 +13,9 @@
 		<fileset dir="../openproj_core">
 			<include name="dist/openproj-core.jar" />
 		</fileset>
+		<fileset dir="../openproj_contrib/lib">
+			<include name="*.jar" />
+		</fileset>
 	</path>
 
 	<target name="prepare">

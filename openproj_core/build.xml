@@ -6,6 +6,9 @@
 			<include name="openproj-contrib.jar" />
 			<include name="openproj-script.jar" />
 		</fileset>
+		<fileset dir="../openproj_contrib/lib">
+			<include name="*.jar" />
+		</fileset>
 	</path>
 
 	<target name="prepare">
