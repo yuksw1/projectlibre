@@ -91,7 +91,7 @@ public class DateTime {
 //		return f;
 	}
 	public static SimpleDateFormat utcDateFormatInstance() {
-		SimpleDateFormat f = new SimpleDateFormat();
+		SimpleDateFormat f = new SimpleDateFormat("MM/dd/yy");
 		f.setTimeZone(DateUtils.UTC_TIME_ZONE);
 		return f;
 	}
